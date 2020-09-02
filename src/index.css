@@ -12,20 +12,23 @@ html {
 }
 body {
   background-image: url(logo.svg), -webkit-linear-gradient(top left, #007d35 0%, #007d35 40%, #0f574e 100%);
-  min-height: 100%;
-  background-position: center 80px, center center;
+  min-height: 50%;
+  background-position: center 15px, center center;
   background-repeat:no-repeat;
-  background-size: 300px, 100% 100%;
+  background-size: 100px, 100% 100%;
   display: flex;
   align-items: flex-end;
 }
 @media (min-width:768px) {
   body {
     align-items: center;
-    background-size: 400px, 100% 100%;
+    background-size: 150px, 100% 100%;
   }
 }
 
 #root {
   width: 100%;
+  position: relative;
+  top: 70px;
+  
 }
